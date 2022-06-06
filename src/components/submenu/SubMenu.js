@@ -1,7 +1,7 @@
 import React from "react";
 import { SidebarLabel, SidebarLink } from "./submenu-styling";
 
-const SubMenu = () => {
+const SubMenu = ({item}) => {
   return (
     <>
         <SidebarLink to={item.path}>
