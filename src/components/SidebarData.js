@@ -13,55 +13,55 @@ export const SidebarData = [
     iconOpened: <RiIcons.RiArrowUpFill />,
     subNav: [
         {
-            title: 'Users',
-            path: '/overviews/users',
+            title: 'How To Use It',
+            path: '/overviews/how-to-use-it',
             icon: <IoIcons.IoIosPaper />,
         },
         {
-            title: 'Revenue',
-            path: '/overviews/revenue',
+            title: 'Installation',
+            path: '/overviews/installation',
             icon: <IoIcons.IoIosPaper />,
         },
     ]
 },
 {
-    title: 'Reports',
-    path: '/reports',
+    title: 'Basic Actions',
+    path: '/basic-actions',
     icon: <AiIcons.AiFillHome/>,
     iconClosed: <RiIcons.RiArrowDownFill />,
     iconOpened: <RiIcons.RiArrowUpFill />,
     subNav: [
         {
-            title: 'Reports',
-            path: '/reports/reports1',
+            title: 'Click Action',
+            path: '/basic-actions/click',
             icon: <IoIcons.IoIosPaper />,
         },
         {
-            title: 'Reports 2',
-            path: '/reports/reports2',
+            title: 'Type Action',
+            path: '/basic-actions/type',
             icon: <IoIcons.IoIosPaper />,
         },
         {
-            title: 'Reports 3',
-            path: '/reports/reports3',
+            title: 'Fill Action',
+            path: '/reports/fill',
             icon: <IoIcons.IoIosPaper />,
         },
         
     ]
 },
 {
-    title: 'Products',
-    path: '/products',
+    title: 'Assertions',
+    path: '/assertions',
     icon: <FaIcons.FaCartPlus />,
 },
 {
-    title: 'Team',
-    path: '/team',
+    title: 'Locator Element',
+    path: '/locator-element',
     icon: <IoIcons.IoMdPeople />
   },
   {
-    title: 'Messages',
-    path: '/messages',
+    title: 'Advanced',
+    path: '/advanced',
     icon: <FaIcons.FaEnvelopeOpenText />,
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -69,20 +69,20 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: 'Message 1',
-        path: '/messages/message1',
+        title: 'End-To-End',
+        path: '/advanced/end-to-end',
         icon: <IoIcons.IoIosPaper />
       },
       {
-        title: 'Message 2',
-        path: '/messages/message2',
+        title: 'CI-CD',
+        path: '/advanced/ci-cd',
         icon: <IoIcons.IoIosPaper />
       }
     ]
   },
   {
-    title: 'Support',
-    path: '/support',
+    title: 'Configuration',
+    path: '/configuration',
     icon: <IoIcons.IoMdHelpCircle />
   }
 
