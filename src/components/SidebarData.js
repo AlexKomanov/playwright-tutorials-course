@@ -5,56 +5,61 @@ import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
 
 export const SidebarData = [
-{
+  {
+    title: 'Home',
+    path: '/',
+    icon: <FaIcons.FaHome />,
+  },
+  {
     title: 'Overview',
     path: '/overview',
-    icon: <AiIcons.AiFillHome/>,
+    icon: <AiIcons.AiFillCode />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
-        {
-            title: 'How To Use It',
-            path: '/overviews/how-to-use-it',
-            icon: <IoIcons.IoIosPaper />,
-        },
-        {
-            title: 'Installation',
-            path: '/overviews/installation',
-            icon: <IoIcons.IoIosPaper />,
-        },
+      {
+        title: 'How To Use It',
+        path: '/overviews/how-to-use-it',
+        icon: <IoIcons.IoIosPaper />,
+      },
+      {
+        title: 'Installation',
+        path: '/overviews/installation',
+        icon: <IoIcons.IoIosPaper />,
+      },
     ]
-},
-{
+  },
+  {
     title: 'Basic Actions',
     path: '/basic-actions',
-    icon: <AiIcons.AiFillHome/>,
+    icon: <AiIcons.AiOutlineReconciliation />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
-        {
-            title: 'Click Action',
-            path: '/basic-actions/click',
-            icon: <IoIcons.IoIosPaper />,
-        },
-        {
-            title: 'Type Action',
-            path: '/basic-actions/type',
-            icon: <IoIcons.IoIosPaper />,
-        },
-        {
-            title: 'Fill Action',
-            path: '/reports/fill',
-            icon: <IoIcons.IoIosPaper />,
-        },
-        
+      {
+        title: 'Click Action',
+        path: '/basic-actions/click',
+        icon: <IoIcons.IoIosPaper />,
+      },
+      {
+        title: 'Type Action',
+        path: '/basic-actions/type',
+        icon: <IoIcons.IoIosPaper />,
+      },
+      {
+        title: 'Fill Action',
+        path: '/reports/fill',
+        icon: <IoIcons.IoIosPaper />,
+      },
+
     ]
-},
-{
+  },
+  {
     title: 'Assertions',
     path: '/assertions',
-    icon: <FaIcons.FaCartPlus />,
-},
-{
+    icon: <FaIcons.FaCheck />,
+  },
+  {
     title: 'Locator Element',
     path: '/locator-element',
     icon: <IoIcons.IoMdPeople />
@@ -87,4 +92,3 @@ export const SidebarData = [
   }
 
 ];
- 
