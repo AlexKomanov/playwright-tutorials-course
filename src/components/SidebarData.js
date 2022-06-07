@@ -11,7 +11,7 @@ export const SidebarData = [
     icon: <AiIcons.AiFillHome/>,
     iconClosed: <RiIcons.RiArrowDownFill />,
     iconOpened: <RiIcons.RiArrowUpFill />,
-    subNav: [
+    subnav: [
         {
             title: 'How To Use It',
             path: '/overviews/how-to-use-it',
@@ -30,7 +30,7 @@ export const SidebarData = [
     icon: <AiIcons.AiFillHome/>,
     iconClosed: <RiIcons.RiArrowDownFill />,
     iconOpened: <RiIcons.RiArrowUpFill />,
-    subNav: [
+    subnav: [
         {
             title: 'Click Action',
             path: '/basic-actions/click',
@@ -67,7 +67,7 @@ export const SidebarData = [
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
-    subNav: [
+    subnav: [
       {
         title: 'End-To-End',
         path: '/advanced/end-to-end',
